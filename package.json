@@ -1,0 +1,34 @@
+{
+  "name": "zeros",
+  "version": "0.0.0",
+  "description": "Initialize an ndarray with zeros",
+  "main": "zeros.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "ndarray": "~1.0.0"
+  },
+  "devDependencies": {
+    "tape": "~1.0.4"
+  },
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mikolalysenko/zeros.git"
+  },
+  "keywords": [
+    "ndarray",
+    "zeros",
+    "initialize"
+  ],
+  "author": "Mikola Lysenko",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "f8ac32f9f3d6c8814e29329be9ecea0a9b1b6389",
+  "bugs": {
+    "url": "https://github.com/mikolalysenko/zeros/issues"
+  }
+}
