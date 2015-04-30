@@ -23,7 +23,7 @@ var x = zeros([64, 64], 'float32')
 var y = zeros( x.shape, x.dtype )
 ```
 
-If you find yourself frequently creating the same array over and over though, [typedarray-pool](https://github.com/mikolalysenko/typedarray-pool) may be a better option.
+If you find yourself frequently creating the same array over and over though, [ndarray-scratch](https://github.com/mikolalysenko/ndarray-scratch) may be a better option.
 
 ## Install
 Just use npm:
