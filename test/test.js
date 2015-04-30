@@ -13,6 +13,13 @@ test("ndarray zeros", function(t) {
   t.end()
 });
 
+test("ndarray native array zeros", function(t) {
+  var x = zeros([64,32], 'array')
+  t.true( Array.isArray(x.data) );
+  t.equals( x.dtype, "array")
+  t.end()
+})
+
 test("ndarray uint8 zeros", function(t) {
   var x = zeros([64,32], 'uint8')
   t.equals( x.dtype, "uint8")
@@ -67,14 +74,14 @@ test("ndarray uint8_clamped zeros", function(t) {
   t.end()
 })
 
-test("ndarray array zeros", function(t) {
-  var x = zeros([64,32], 'array')
-  t.equals( x.dtype, "array")
+test("ndarray array buffer zeros", function(t) {
+  var x = zeros([64,32], 'buffer')
+  t.equals( x.dtype, "generic")
   t.end()
 })
 
-test("ndarray array buffer zeros", function(t) {
-  var x = zeros([64,32], 'buffer')
+test("ndarray data zeros", function(t) {
+  var x = zeros([64,32], 'data')
   t.equals( x.dtype, "generic")
   t.end()
 })
