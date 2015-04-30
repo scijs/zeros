@@ -10,6 +10,7 @@
     "ndarray": "~1.0.0"
   },
   "devDependencies": {
+    "tap": "~0.7.1",
     "tape": "~1.0.4"
   },
   "scripts": {
