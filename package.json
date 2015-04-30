@@ -1,20 +1,19 @@
 {
   "name": "zeros",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Initialize an ndarray with zeros",
   "main": "zeros.js",
   "directories": {
     "test": "test"
   },
   "dependencies": {
-    "ndarray": "~1.0.0"
+    "ndarray": "^1.0.16"
   },
   "devDependencies": {
-    "tap": "~0.7.1",
-    "tape": "~1.0.4"
+    "tape": "^4.0.0"
   },
   "scripts": {
-    "test": "tap test/*.js"
+    "test": "tape test/*.js"
   },
   "repository": {
     "type": "git",
